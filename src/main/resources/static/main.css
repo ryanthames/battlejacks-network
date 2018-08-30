@@ -1,0 +1,17 @@
+:root {
+    --depressing-white: #ebf5df;
+    --grandmas-furniture: #85bdbf;
+    --papercut-red: #ed6a5a;
+    --concrete: #746f72;
+    --holiday-anxiety: #5d675b;
+}
+
+body {
+    background-image: url("./topography.svg"),
+    linear-gradient(110deg, var(--depressing-white), var(--grandmas-furniture), var(--papercut-red), var(--concrete), var(--holiday-anxiety));
+    background-size: 340px, auto;
+    min-height: calc(100vh - 100px);
+    margin: 50px;
+    background-attachment: fixed;
+    letter-spacing: -1px;
+}
